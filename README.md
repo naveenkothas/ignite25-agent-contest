@@ -40,8 +40,9 @@ There are multiple prize categories, including:
 ## 💡 Learning Resources
 
 Need help choosing the right model?
-Check out [https://aka.ms/models-blog](https://aka.ms/models-blog) for a quick guide on model selection.
-Deepdive into labs?
+
+- Check out [https://aka.ms/models-blog](https://aka.ms/models-blog) for a quick guide on model selection.
+- Deepdive into labs?
 [Nitya's labs]
-Watch videos on model selection?
+- Watch videos on model selection?
 [Model Mondays video links]
