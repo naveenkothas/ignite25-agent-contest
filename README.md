@@ -28,7 +28,16 @@ Submissions after this deadline are not eligible.
 
 Before submitting, read through the [eligibility guidance](https://aka.ms/can-I-win) and make sure you understand the requirements.
 
-Go to [Mission](./docs/README.md) to find out what your mission is.
+### Your mission (should you choose to accept)
+You are the AI strategist at Trey Marketing Inc., a fast-growing start-up preparing for its first major product launch. Moments before the launch, critical issues emerge, threatening to derail months of hard work.
+
+- The countdown is on: 30 minutes to go.
+- Investors are watching, customers are waiting, and the pressure is intense.
+- Your mission? 
+
+_Leverage your agentic skills and AI expertise to stabilise the situation and ensure a successful launch. Build intelligent agents that can address urgent challenges, fix defects, manage internal communications, and deliver actionable solutions under extreme time constraints_
+
+[Todo- Added mission tasks]
 
 ## 🏆 Prizes
 
