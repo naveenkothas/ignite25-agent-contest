@@ -24,18 +24,6 @@
   <hr style="border:0;height:4px;background:linear-gradient(90deg, #2D1B69 0%, #4A148C 25%, #C2185B 50%, #E91E63 75%, #1976D2 100%);border-radius:2px;" />
 </div>
 
-## Your Mission
-
-You are the AI strategist at Trey Marketing Inc., a fast-growing start-up preparing for its first major product launch. Moments before the launch, critical issues emerge, threatening to derail months of hard work.
-
-- The countdown is on: 30 minutes to go.
-- Investors are watching, customers are waiting, and the pressure is intense.
-- Your mission? 
-
-_Leverage your agentic skills and AI expertise to stabilise the situation and ensure a successful launch. Build intelligent agents that can address urgent challenges, fix defects, manage internal communications, and deliver actionable solutions under extreme time constraints_
-
-[Todo- Added mission tasks]
-
 ## Before you begin
 1. You will need a GitHub account. [Create one for free](https://github.com/signup) if needed.
 1. You will use the [GitHub Models Marketplace](https://github.com/marketplace/models) - verify you can access it.
