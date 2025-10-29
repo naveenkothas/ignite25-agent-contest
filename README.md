@@ -1,3 +1,6 @@
+<img width="1737" height="593" alt="contest_banner" src="https://github.com/user-attachments/assets/e139be90-1ba9-48e0-be3a-e59a372ebcd3" />
+
+
 # ✨ Contest Details
 
 Welcome to Microsoft’s **Mission Agent Possible** contest at Microsoft Ignite 2025
@@ -23,9 +26,9 @@ Submissions after this deadline are not eligible.
 
 ## ✍️ How to Submit
 
-Before submitting, read through the [eligibility guidance](https://aka.ms/CanIWin) and make sure you understand the requirements.
+Before submitting, read through the [eligibility guidance](https://aka.ms/can-I-win) and make sure you understand the requirements.
 
-<h1 style="color:red">Contest is closed</h1>
+Go to [Mission](./docs/README.md) to find out what your mission is.
 
 ## 🏆 Prizes
 
