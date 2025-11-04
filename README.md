@@ -77,7 +77,7 @@ Each earns **\$100 Microsoft Store credit**
 ---
 
 ### 🌍 **Virtual Bonus**
-Not attending Microsoft Ignite 2025 in person in San Francisco? Submit your agent for a chance to be **featured on the [Model Mondays Podcast](https://aka.ms/model-mondays)**! 🎙️
+Not attending Microsoft Ignite 2025 in person in San Francisco? Submit your agent to have a chance to showcase your work on a special episode of **[Model Mondays Podcast](https://aka.ms/model-mondays)**! 🎙️
 
 ---
 
