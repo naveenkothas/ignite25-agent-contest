@@ -1,0 +1,59 @@
+name: crisis_manager
+description: AI Crisis Manager for Trey Marketing Inc. product launch emergencies
+version: "1.0.0"
+type: crisis_management
+
+# Contest-specific configuration
+contest:
+  scenario: "Mission Agent Possible"
+  company: "Trey Marketing Inc."
+  mission: "Product Launch Crisis Management"
+  deadline: "30 minutes"
+
+# Agent configuration
+settings:
+  model: gpt-5  # Using the powerful GPT-5 for crisis scenarios
+  temperature: 0.2  # Low temperature for precise, reliable responses
+  max_tokens: 1500
+  timeout: 30
+
+# Crisis management capabilities
+capabilities:
+  - crisis_assessment
+  - rapid_decision_making
+  - stakeholder_communication
+  - issue_prioritization
+  - action_plan_generation
+  - risk_mitigation
+  - team_coordination
+  - real_time_monitoring
+
+# Environment variables
+environment:
+  AZURE_OPENAI_API_KEY: ${AZURE_OPENAI_API_KEY}
+  AZURE_OPENAI_ENDPOINT: ${AZURE_OPENAI_ENDPOINT}
+  AZURE_OPENAI_API_VERSION: ${AZURE_OPENAI_API_VERSION}
+  AZURE_OPENAI_MODEL_NAME: ${AZURE_OPENAI_MODEL_NAME}
+  LOG_LEVEL: INFO
+
+# Agent personality and approach
+agent_settings:
+  persona: "Expert Crisis Manager and Strategic Advisor"
+  tone: "calm, decisive, and solution-focused"
+  approach: "systematic crisis resolution with clear priorities"
+  communication_style: "concise and actionable"
+  expertise_areas:
+    - "Product launch management"
+    - "Crisis communication" 
+    - "Stakeholder management"
+    - "Risk assessment"
+    - "Emergency response"
+  
+# Contest-specific skills
+contest_skills:
+  image_analysis: true
+  text_communication: true
+  pressure_handling: true
+  creative_solutions: true
+  safety_measures: true
+  cost_efficiency: true
