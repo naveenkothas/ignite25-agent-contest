@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Simple Azure Deployment Script for Agent Framework DevUI
+# Azure Deployment Script using Azure Container Registry
 # Resource Group: lana-dev-01
 
 set -e
@@ -11,11 +11,22 @@ echo "🚀 Deploying Agent Framework DevUI to Azure..."
 RESOURCE_GROUP="lana-dev-01"
 APP_NAME="ignite-agent-framework"
 PLAN_NAME="ignite-agents-plan"
-IMAGE_NAME="naveenkothas/ignite-agent-framework:latest"
+ACR_NAME="igniteagentsacr"
+IMAGE_NAME="agent-framework:latest"
 
-echo "📦 Building and pushing Docker image..."
-docker build -t $IMAGE_NAME .
-docker push $IMAGE_NAME
+echo "📦 Creating Azure Container Registry..."
+az acr create \
+  --resource-group $RESOURCE_GROUP \
+  --name $ACR_NAME \
+  --sku Basic \
+  --admin-enabled true \
+  --output none 2>/dev/null || echo "ACR already exists"
+
+echo "🔨 Building and pushing to ACR..."
+az acr build \
+  --registry $ACR_NAME \
+  --image $IMAGE_NAME \
+  .
 
 echo "☁️  Deploying to Azure..."
 
@@ -27,12 +38,12 @@ az appservice plan create \
   --is-linux \
   --output none 2>/dev/null || echo "App Service Plan already exists"
 
-# Create Web App
+# Create Web App with ACR image
 az webapp create \
   --resource-group $RESOURCE_GROUP \
   --plan $PLAN_NAME \
   --name $APP_NAME \
-  --deployment-container-image-name $IMAGE_NAME \
+  --deployment-container-image-name ${ACR_NAME}.azurecr.io/${IMAGE_NAME} \
   --output none
 
 # Configure basic settings
