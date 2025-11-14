@@ -7,6 +7,9 @@ Company: Trey Marketing Inc.
 Scenario: "Mission Agent Possible"
 """
 
+# Agent Framework integration
+from agent_framework_core import Agent
+
 import os
 import yaml
 import json
