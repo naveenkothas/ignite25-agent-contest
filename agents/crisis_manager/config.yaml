@@ -1,9 +1,0 @@
-name: "Crisis Manager"
-description: "AI Crisis Manager for Trey Marketing Inc. product launch emergencies"
-version: "1.0.0"
-model: "gpt-5"
-temperature: 0.2
-max_tokens: 1500
-contest: "Microsoft Ignite 2025 - Mission Agent Possible"
-company: "Trey Marketing Inc."
-ready: true
