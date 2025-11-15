@@ -1,0 +1,36 @@
+{
+  "agents": [
+    {
+      "name": "crisis_manager",
+      "display_name": "Crisis Manager",
+      "description": "AI Crisis Manager for Trey Marketing Inc. product launch emergencies",
+      "type": "crisis_management",
+      "model": "gpt-5",
+      "file": "crisis_manager.py",
+      "config": "crisis_manager/config.yaml",
+      "contest": {
+        "scenario": "Mission Agent Possible",
+        "company": "Trey Marketing Inc.",
+        "contest": "Microsoft Ignite 2025",
+        "ready": true
+      },
+      "capabilities": [
+        "crisis_assessment",
+        "rapid_decision_making",
+        "stakeholder_communication",
+        "action_plan_generation",
+        "progress_monitoring"
+      ],
+      "contest_skills": {
+        "image_analysis": true,
+        "text_communication": true,
+        "pressure_handling": true,
+        "creative_solutions": true,
+        "safety_measures": true,
+        "cost_efficiency": true
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "last_updated": "2025-11-14T20:45:00Z"
+}
