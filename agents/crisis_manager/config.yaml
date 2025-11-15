@@ -1,23 +1,9 @@
-name: crisis_manager
+name: "Crisis Manager"
 description: "AI Crisis Manager for Trey Marketing Inc. product launch emergencies"
 version: "1.0.0"
-type: agent
-
-# Basic agent configuration
-model: gpt-5
+model: "gpt-5"
 temperature: 0.2
 max_tokens: 1500
-
-# Agent capabilities
-capabilities:
-  - crisis_assessment
-  - rapid_decision_making
-  - stakeholder_communication
-  - action_plan_generation
-
-# Contest information
-contest_info:
-  scenario: "Mission Agent Possible"
-  company: "Trey Marketing Inc."
-  deadline: "30 minutes"
-  ready: true
+contest: "Microsoft Ignite 2025 - Mission Agent Possible"
+company: "Trey Marketing Inc."
+ready: true
