@@ -4,8 +4,25 @@ Simple Crisis Agent for Microsoft Ignite Contest
 Minimal implementation to test agent framework discovery
 """
 
-def handle_message(message):
-    """Simple message handler for the agent framework"""
+async def handle_message(message, context=None):
+    """Async message handler for the agent framework"""
+    response_text = _process_message(message)
+    
+    return {
+        "response": response_text,
+        "agent": "Simple Crisis Agent",
+        "status": "success",
+        "contest": "Microsoft Ignite 2025 - Mission Agent Possible",
+        "company": "Trey Marketing Inc.",
+        "model": "gpt-5"
+    }
+
+def handle_message_sync(message):
+    """Sync message handler for backward compatibility"""
+    return _process_message(message)
+
+def _process_message(message):
+    """Internal message processing logic"""
     
     if "crisis" in message.lower():
         return f"""🚨 CRISIS MANAGER ACTIVATED
@@ -78,5 +95,5 @@ if __name__ == "__main__":
     
     for msg in test_messages:
         print(f"\nInput: {msg}")
-        response = handle_message(msg)
+        response = handle_message_sync(msg)
         print(f"Output: {response[:100]}...")
