@@ -1,5 +1,13 @@
 # 🤖 Enhanced Agentic AI System
 
+> ## 🔴 **LIVE DEMO AVAILABLE FOR CONTEST JUDGES!**
+> 
+> ### 🌟 **Experience the System Right Now - No Setup Required:**
+> - **🌐 Live Application**: [https://ignite-agent-framework.azurewebsites.net](https://ignite-agent-framework.azurewebsites.net)
+> - **📊 Live Analytics Dashboard**: [https://ignite-agent-framework.azurewebsites.net/analytics](https://ignite-agent-framework.azurewebsites.net/analytics)
+> 
+> **🎮 Try the multi-agent crisis management system live on Azure!**
+
 ## 🎯 Overview
 
 **Enhanced Agentic AI System** is a sophisticated multi-agent autonomous incident management platform that demonstrates the power of collaborative AI agents working together to detect, analyze, and resolve system issues in real-time. Built for Microsoft's **Mission Agent Possible** contest, this system showcases enterprise-grade AI capabilities with intelligent model routing, real-time monitoring, and automated resolution workflows.
@@ -8,6 +16,24 @@
 **Microsoft Mission Agent Possible 2025** - Mastering Model Selection for Effective Agents
 
 > **Mission**: AI strategist at Trey Marketing Inc. - Deploy intelligent agents to resolve critical product launch issues in under 30 minutes using optimal model selection and collaborative AI workflows.
+
+## 🔴 **LIVE DEMO - AVAILABLE NOW!**
+
+### 🌟 **Contest Judges: Access the Live System**
+
+| 🎯 **Live Application** | 📊 **Analytics Dashboard** |
+|---|---|
+| **[https://ignite-agent-framework.azurewebsites.net](https://ignite-agent-framework.azurewebsites.net)** | **[https://ignite-agent-framework.azurewebsites.net/analytics](https://ignite-agent-framework.azurewebsites.net/analytics)** |
+| *Full multi-agent crisis management system* | *Real-time monitoring & performance metrics* |
+
+### 🚀 **What You Can See Live:**
+- ✅ **Multi-Model AI Agent Analytics Dashboard** - Real-time token usage, performance metrics
+- ✅ **TechShop E-commerce Integration** - Crisis management in action
+- ✅ **Specialized AI Agents** - Live system monitoring and incident resolution
+- ✅ **Azure OpenAI Integration** - Multiple models working together
+- ✅ **Enterprise-Grade Architecture** - Production-ready deployment
+
+**🎮 Try it now - No installation required!**
 
 ## 📸 Project Screenshots
 
@@ -68,10 +94,20 @@ devui src/agents --host 0.0.0.0 --port 8080 --mode user
 ```
 
 5. **Access the application**
+```bash
+# Local Development
+devui src/agents --host 0.0.0.0 --port 8080 --mode user
+# Then visit: http://localhost:8080
 ```
-🌐 Local DevUI: http://localhost:8080
-☁️ Azure Deployment: https://ignite-agent-framework.azurewebsites.net
-```
+
+### 🔥 **OR ACCESS LIVE DEPLOYMENT RIGHT NOW!**
+
+> **🚨 Contest Judges - No Setup Required!**
+> 
+> **🌐 Live Application**: [https://ignite-agent-framework.azurewebsites.net](https://ignite-agent-framework.azurewebsites.net)  
+> **📊 Live Analytics**: [https://ignite-agent-framework.azurewebsites.net/analytics](https://ignite-agent-framework.azurewebsites.net/analytics)
+>
+> *Experience the full multi-agent system in action with real-time monitoring, token usage analytics, and crisis management capabilities*
 
 ## 🏗️ System Architecture
 
