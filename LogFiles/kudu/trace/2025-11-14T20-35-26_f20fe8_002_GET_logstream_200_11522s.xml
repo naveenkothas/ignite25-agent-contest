@@ -1,7 +1,0 @@
-<step title="Incoming Request" date="2025-11-14T20:35:26.308" instance="f20fe8" url="/logstream" method="GET" type="request" pid="772,1,7" Host="ignite-agent-framework.scm.azurewebsites.net" User-Agent="AZURECLI/2.73.0 (HOMEBREW)" Accept-Encoding="identity" Authorization="Bas..." x-ms-client-request-id="4bef8cea-c199-11f0-98ec-865cb7ab1e1c" X-ARR-LOG-ID="4bef8cea-c199-11f0-98ec-865cb7ab1e1c" CLIENT-IP="47.185.112.158:60631" X-SITE-DEPLOYMENT-ID="ignite-agent-framework" WAS-DEFAULT-HOSTNAME="ignite-agent-framework.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/logstream" X-Client-IP="47.185.112.158" X-Client-Port="60631" >
-  <step title="LogStreamHandlerMiddleware.Invoke" date="2025-11-14T20:35:26.425" /><!-- duration: 205ms -->
-  <step title="Error occurred" date="2025-11-14T22:35:27.697" type="error" text="LogStreamManager: Inside TerminateClient" /><!-- duration: 63ms -->
-  <step title="Error occurred" date="2025-11-14T22:35:27.806" type="error" text="LogStreamManager: Inside Reset" /><!-- duration: 14ms -->
-  <step title="Error occurred" date="2025-11-14T23:47:27.824" type="error" text="LogStreamManager: ProcessRequest end due to timeout" /><!-- duration: 159ms -->
-  <step title="Outgoing response" date="2025-11-14T23:47:28.181" type="response" statusCode="200" statusText="OK" /><!-- duration: 8ms -->
-</step><!-- duration: 11521890ms -->
